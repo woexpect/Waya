@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Kaushan+Script" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Kaushan+Script|Catamaran" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -9,34 +11,41 @@
 	<title>Waya!</title>
 </head>
 <body>
-	<section>
-		<div class="navbar" style="background-color: black">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand kaushan" href="#">Waya!</a>
-			    </div>
-			    <ul class="nav navbar-nav">
-			    	<li><a href="#" class="lato blanco">Home</a></li>
-			      	<li><a href="#" class="lato blanco">Descarga la App!</a></li>
-			      	<li><a href="#" class="lato blanco">Wayea!</a></li>
-			    </ul>
-			  </div>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand kaushan neon header-t" style="color: white" href="#">Waya!</a>
+			</div>			
+			<div class="collpase navbar-collapse navbar-right" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="">Descargas</a></li>
+					<li><a href="">Equipo</a></li>
+					<li><a href="">Comentarios</a></li>
+				</ul>				
+			</div>
 		</div>
+	</nav>
+
+	<section id="home" class="home-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12" style="background-color: green">
-					<h1>Hola</h1>
+				<div class="col-md-8 col-xs-12 blanco">
+					<h1 class="catamaran contenido">Bienvenido a la comunidad Waya, aquí podrás compartir tus momentos de dispersión en tiempo real para ayudar a los demás a decidir.</h1>
+					<a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div>
+						<div class="cell-bg"></div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4" style="background-color: cyan">
-					<h1>Hola</h1>
-				</div>
-				<div class="col-md-8" style="background-color: red">
-					<h2>Mundo</h2>
-				</div>
-			</div>
-		</div>
+		</div>		
 	</section>
 </body>
 </html>
