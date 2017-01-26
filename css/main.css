@@ -1,0 +1,21 @@
+.kaushan{
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+.roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blanco{
+	color: white;
+}
+
+.blanco: hover{
+	color: red;
+	background-color: red;
+}
