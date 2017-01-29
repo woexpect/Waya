@@ -19,12 +19,24 @@
 	color: white;
 }
 
+.jumbotron{
+	background-color: rgba(0, 0, 0, 0);
+}
+
 .home-bg{
 	background-image: url('../img/header-bg.jpg');
 }
 
+.white-bg{
+	background-color: #FAFAFA;
+}
+
+.grey-bg{
+	background-color: #E0E0E0;
+}
+
 .contenido{
-	padding-top: 25%;
+	padding-top: 5%;
 }
 
 a:focus, a:hover{
@@ -41,9 +53,19 @@ a:focus, a:hover{
 }
 
 .cell-bg{
-	padding-bottom: 160%;
+	padding-bottom: 150%;
+	margin-top: 35%;
 	background-image: url('../img/cel.png');
 	background-repeat: no-repeat;
+	background-size: 100% 400px;
+}
+
+.aa-bg{
+	padding-bottom: 72%;
+	background-image: url('../img/androidapple.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 70%;
 }
 
 .neon{
@@ -69,9 +91,11 @@ a:focus, a:hover{
 }
 
 .btn {
-    border-radius: 300px;
+    border-radius: 17px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .btn-outline {
     color: #fff;
-    border: 1px solid;
+    border: 1.5px solid;
 }
