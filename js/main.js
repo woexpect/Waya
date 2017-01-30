@@ -11,4 +11,20 @@ $(function() {
       }
     }
   });
+
+  $('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+  });
+
+  $('body').scrollspy({
+    target: '.navbar-fixed-top',
+    offset: 100
+  });
+
+  $('#mainNav').affix({
+    offset: {
+      top: 50
+    }
+  });
+
 });

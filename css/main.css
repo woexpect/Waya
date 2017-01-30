@@ -31,21 +31,35 @@
 	background-color: #FAFAFA;
 }
 
-.grey-bg{
-	background-color: #E0E0E0;
-}
-
 .contenido{
 	padding-top: 5%;
 }
 
-a:focus, a:hover{
+#myNavbar > ul > li > a{
 	color: white;
-	background-color: black;
+}
+
+#myNavbar > ul > li > a:focus, #myNavbar > ul > li > a:hover, #myNavbar > ul > li > a:focus .active{
+	color: #fdcc52;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar{
 	margin-bottom: 0;
+}
+
+.affix-top{
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.affix{
+	background-color: black;
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.pink-bg{
+	background-color:  #FF5722;
 }
 
 .header-t{
@@ -61,11 +75,11 @@ a:focus, a:hover{
 }
 
 .aa-bg{
-	padding-bottom: 72%;
+	padding-bottom: 200%;
 	background-image: url('../img/androidapple.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 70% 70%;
+	background-size: 160%;
 }
 
 .neon{
@@ -98,4 +112,16 @@ a:focus, a:hover{
 .btn-outline {
     color: #fff;
     border: 1.5px solid;
+}
+
+.footer > div > ul > li > a{
+	color: #BDBDBD;
+}
+
+.footer{
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+	text-align: center;
+	color: #BDBDBD;
+	background-color: #212121;
 }
